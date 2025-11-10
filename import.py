@@ -6,7 +6,8 @@ import pandas as pd
 # === Paths ===
 BASE_DIR = os.path.dirname(__file__)
 CATALOG_DIR = os.path.join(BASE_DIR, "catalog")
-DB_PATH = os.path.join(BASE_DIR, "shop.db")  # your bot uses shop.db
+DB_PATH = os.path.join(BASE_DIR, "products.db")
+  # your bot uses shop.db
 
 # === DB schema expected by your bot.py ===
 #   SELECT sku,title,price,category,subcategory,description,image_url,image_path,stock ...
